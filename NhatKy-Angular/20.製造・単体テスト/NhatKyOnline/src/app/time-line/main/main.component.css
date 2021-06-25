@@ -1,7 +1,43 @@
 .diary-container {
-  background-color: rgb(166, 223, 192);
+  /* background-color: rgb(166, 223, 192); */
 }
 
 .diary {
-  background-color: rgb(209, 228, 218);
+  background-color: rgb(247, 247, 247);
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.menu {
+  /* background-color: rgb(235, 255, 218); */
+  border-right: 1px solid gray;
+}
+
+.main {
+  /* background-color: rgb(235, 255, 218); */
+  /* border: 2px solid gray; */
+
+}
+
+.date-time {
+  color: gray;
+  font-weight: bold;
+}
+
+.comment {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.menuItem:hover {
+  background-color: rgb(164, 255, 217);
+}
+
+.menuItem:visited {
+  background-color: rgb(182, 151, 255);
+}
+
+.button {
+  width: 60px;
 }

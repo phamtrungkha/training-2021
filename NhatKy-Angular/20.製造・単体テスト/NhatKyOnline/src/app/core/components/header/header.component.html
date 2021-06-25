@@ -1,7 +1,7 @@
-<div>
-  <nav class="navbar navbar-light bg-light">
-    <a routerLink="/" class="nav-link">日記オンライン</a>
-    <a routerLink="/" class="nav-link">PTK</a>
-    <a routerLink="/signup" class="nav-link">サインアップ</a>
+<div class="header-nav fixed-top border border-secondary mx-2 mx-sm-5">
+  <nav class="navbar navbar-light bg-light p-0 w-100">
+    <a href="/" class="nav-link">日記オンライン</a>
+    <a *ngIf="title" routerLink="{{ url }}" class="nav-link text-dark font-weight-bold lead d-none d-sm-block">{{ title }}</a>
+    <a routerLink="{{ navRightUrl }}" (click)="click()">{{ navRight }}</a>
   </nav>
 </div>

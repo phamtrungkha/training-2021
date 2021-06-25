@@ -3,7 +3,10 @@ import { CommonModule } from '@angular/common';
 import { TimeLineRoutingModule } from './time-line-routing.module';
 import { MenuComponent } from './menu/menu.component';
 import { MainComponent } from './main/main.component';
-import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap'
+import { RouterModule } from '@angular/router';
+import { CommentDatePipe } from '../shared/pipes/comment-date.pipe';
+import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -15,8 +18,9 @@ import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap'
   imports: [
     CommonModule,
     TimeLineRoutingModule,
-    NgbPaginationModule,
-    NgbAlertModule
+    RouterModule,
+    SharedModule,
+    FormsModule
   ],
   exports: [
     MainComponent

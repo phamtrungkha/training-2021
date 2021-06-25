@@ -1,65 +1,105 @@
-<div class="container">
-  <div class="row mt-5">
-    <div class="col-sm-2">
+<ng-template #welcome>
+  <div class="welcome my-5 text-center">
+    <span class="display-2">日記</span>
+    <p class="lead">ようこそ</p>
+    <p class="lead"><a routerLink="/login">ログイン</a>または<a routerLink="/signup">サインアップ</a>し、ご体験ください</p>
+  </div>
+</ng-template>
+
+<div *ngIf="isLogin; else welcome" class="">
+  <div class="row mt-4 mx-auto pt-3">
+    <div class="col-sm-2 menu pt-3">
       <div>
-        <span>All</span>
-      </div>
-      <ul>
-        <li>
-          <div>
-            <span>2021</span>
+        <div class="menuItem" (click)="menuSelect('all')">All</div>
+        <div class="ml-3" *ngFor="let year of menuAll">
+          <div class="menuItem" (click)="menuSelect(getYear(year[0]))">{{ getYear(year[0]) }}</div>
+          <div class="ml-3" *ngFor="let month of year">
+            <div class="menuItem" (click)="menuSelect(month)">∟{{ getMonth(month) }}</div>
           </div>
-          <ul>
-            <li>
-              <div>
-                <span>6</span>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>3</span>
-              </div>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <div class="col-sm-10">
-      <div class="row">
-        <div class="d-inline col-sm-11">
-          <textarea name="" id="" class="w-100" placeholder="今同の感じですか。。。"></textarea>
         </div>
-        <button class="btn btn-primary d-inline col-sm-1 my-auto">送信</button>
+      </div>
+    </div>
+    <div class="col-sm-10 main pt-3">
+      <div class="row mr-auto">
+        <div class="d-inline col-md-11">
+          <textarea [(ngModel)]="newDiary" class="w-100" placeholder="今どんな感じですか。。。"></textarea>
+        </div>
+        <div class=" d-inline col-md-1 px-0 ">
+          <button class="button btn btn-primary my-1 my-md-2 ml-3 ml-md-0" (click)="addDiary()">送信</button>
+        </div>
       </div>
       <div class="diary-container">
-        <nav class="navbar">
-          <span>2020/11/13 22:45</span>
-          <div>
-            <a>修正</a>
-            <a>削除</a>
-          </div>
-        </nav>
-        <div class="diary">
-          <span>日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容</span>
-
-        </div>
-        <p>
-          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#comment" aria-expanded="false" aria-controls="comment">コメント表示</button>
-        </p>
-        <div class="collapse" id="comment" [ngbCollapse]="isCollapsed">
-          <div class="media mb-4">
-            <img src="../../media/64x64.png" class="align-self-start mr-3">
-            <div class="media-body">
-              日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容
+        <div class="diary my-4 p-2" *ngFor="let diary of diaryList; let i = index">
+          <div *ngIf="diary.isEditing">
+            <div class="mr-auto">
+              <div class="">
+                <textarea [(ngModel)]="tempDiary" name="updatedDiary" class="w-100" type="text"></textarea>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-sm btn-success mr-2" (click)="updateDiary(diary); diary.isEditing = false">保存</button>
+                <button class="btn btn-sm btn-danger" (click)="diary.isEditing = false; tempDiary = ''">キャンセル</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div>
-          日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容
-          日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容
-          日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容
-          日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容日記の内容
-
+          <div *ngIf="!diary.isEditing">
+            <nav class="date-time">
+              <span>{{ currentUser.displayName }}</span>
+              <i class="fa fa-edit ml-3 text-warning" title="修正" (click)="diary.isEditing = true; tempDiary = diary.cur_content"></i>
+              <i class="fa fa-trash ml-3 text-danger" title="削除" (click)="deleteDiary(diary)"></i>
+              <span class="float-right d-none d-sm-block" >{{ diary.created_date | commentDate:"full" }}</span>
+              <span class="float-right d-sm-none d-block" >{{ diary.created_date | commentDate:"small" }}</span>
+            </nav>
+            <div>
+              <div class="diary-main">
+                <pre class="my-auto ml-2">{{ diary.cur_content }}</pre>
+                <p class="ml-2">
+                  <i class="fas fa-comment text-info"></i>
+                  <a class="ml-2 text-info" data-toggle="collapse" href="#comment-{{ i }}">コメント...</a>
+                </p>
+              </div>
+              <div class="collapse ml-4 my-1" id="comment-{{ i }}">
+                <form class="row mr-3" #form="ngForm" (ngSubmit)="addComment(form, diary.dc_id)">
+                  <div class="d-inline col-sm-11">
+                    <textarea ngModel name="newComment" class="w-100" placeholder="どう考えるの。。。"></textarea>
+                  </div>
+                  <button class="btn btn-primary d-inline col-sm-1 my-auto" type="submit">送信</button>
+                </form>
+                <div *ngFor="let comment of getComments(diary.dc_id)">
+                  <div class="media my-2">
+                    <div class="d-none d-sm-block">
+                      <img *ngIf="currentUser.uid == comment.user_id" src="{{ currentUser.photoURL }}" class="align-self-start mr-3 rounded-circle img-thumbnail" style="height: 64px; width: 64px;">
+                      <img *ngIf="currentUser.uid != comment.user_id" src="{{ comment.user_photoURL }}" class="align-self-start mr-3 rounded-circle" style="height: 64px; width: 64px;">
+                    </div>
+                    <div class="comment mr-3 p-2 w-100">
+                      <div class="media-body" *ngIf="comment.isEditing">
+                        <div class="mr-auto">
+                          <div class="">
+                            <textarea [(ngModel)]="tempDiary" class="w-100" type="text"></textarea>
+                          </div>
+                          <div class="text-center">
+                            <button class="btn btn-sm btn-success mr-2" (click)="updateDiary(comment); comment.isEditing = false">保存</button>
+                            <button class="btn btn-sm btn-danger" (click)="comment.isEditing = false; tempDiary = ''">キャンセル</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="media-body my-auto" *ngIf="!comment.isEditing">
+                        <nav class="date-time">
+                          <span>{{ comment.user_displayName }}</span>
+                          <i *ngIf="currentUser.uid == comment.user_id" class="fa fa-edit ml-3" title="修正" (click)="comment.isEditing = true; tempDiary = comment.cur_content"></i>
+                          <i *ngIf="currentUser.uid == comment.user_id" class="fa fa-trash ml-3" title="削除" (click)="deleteDiary(comment)"></i>
+                          <span class="float-right d-none d-md-block">{{ comment.created_date | commentDate: 'full'}}</span>
+                          <span class="float-right d-block d-md-none">{{ comment.created_date | commentDate: 'small'}}</span>
+                        </nav>
+                        <div class="">
+                          <pre>{{ comment.cur_content }}</pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

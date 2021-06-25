@@ -1,42 +1,50 @@
 <div class="container">
-  <div class="w-75 my-4 mx-auto ">
-    <form >
-      <div class="text-center text-danger mb-4">
-        <p class="lead">pass khong giong nhau</p>
+  <div class="w-75 my-5 mx-auto " >
+    <form>
+      <div class="text-center text-danger my-4 pt-5">
+        <p class="lead">{{ errorMessage }}</p>
       </div>
       <div class="form-group row">
-        <label for="display-name" class="col-sm-4 col-form-label">名前</label>
+        <label for="displayName" class="col-sm-4 col-form-label">名前</label>
         <div class="col-sm-8">
-          <input type="text" id="uname" class="form-control">
+          <input [(ngModel)]="displayName" type="text" id="displayName" name="displayName" class="form-control">
         </div>
       </div>
       <div class="form-group row">
-        <label for="pass" class="col-sm-4 col-form-label">パスワード</label>
+        <label for="oldpassword" class="col-sm-4 col-form-label">旧パスワード</label>
         <div class="col-sm-8">
-          <input type="password" id="pass" class="form-control">
+          <input [(ngModel)]="oldpassword" type="password" id="oldpassword" name="oldpassword" class="form-control">
         </div>
       </div>
       <div class="form-group row">
-        <label for="pass-confirm" class="col-sm-4 col-form-label">パスワード（再）</label>
+        <label for="newpassword" class="col-sm-4 col-form-label">新パスワード</label>
         <div class="col-sm-8">
-          <input type="password" id="pass-confirm" class="form-control">
+          <input [(ngModel)]="newpassword" type="password" id="newpassword" name="newpassword" class="form-control">
         </div>
       </div>
       <div class="form-group row">
-        <label for="addImage" class="col-sm-4 col-form-label">写真</label>
+        <label for="passwordConfirm" class="col-sm-4 col-form-label">パスワード（再）</label>
         <div class="col-sm-8">
+          <input [(ngModel)]="passwordConfirm" type="password" id="passwordConfirm" name="passwordConfirm" class="form-control">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="addImage" class="col-sm-4 col-form-label">写真（jpg, png）</label>
+        <div class="col-sm-8">
+          <img *ngIf="photoURL && !photoPath" src="{{photoURL}}" alt="photo" class="align-self-start mr-2 w-100">
+          <span >{{ photoPath }}</span>
           <div class="custom-file">
-            <input type="file" id="addImage" class="custom-file-input">
+            <input [(ngModel)]="photoPath" type="file" id="addImage" name="image" class="custom-file-input">
             <label for="addImage" class="custom-file-label">ファイル選択...</label>
           </div>
         </div>
       </div>
       <div class="form-group my-5 text-center">
         <div class="mr-3 d-inline">
-          <input class="btn btn-success w-25" type="button" value="保存">
+          <button class="btn btn-success w-25" type="button" (click)="changeProfile()">保存</button>
         </div>
         <div class="d-inline">
-          <input class="btn btn-warning w-25" type="button" value="キャンセル">
+          <button class="btn btn-warning w-25" type="button"  (click)="cancel()">キャンセル</button>
         </div>
       </div>
     </form>
