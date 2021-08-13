@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymyleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+	</head>
+	<body>
+		<div class="container mt-3">
+			<div>
+				<h1>タスク一覧（バリデーション）</h1>	
+				<h3 th:text="${taskForm.newTask}?タスク新規作成:タスク更新">task</h3>
+				<div class="container">
+					<h5 class="text-danger text-center" th:text="${message}">tests</h5>
+					<form class="form" method="post" action="#" th:object="${taskForm}" th:action="${taskForm.newTask}?@{/task/insert}:@{/task/update}">
+						<div class="form-group row">
+							<label class="col-sm-4 col-form-label">タスクタイプ（選択してください）</label>
+							<div class="col-sm-8" >
+								<select class="form-control" name="typeId">
+									<option value="1" th:selected="*{typeId == 1}" >緊急</option>
+									<option value="2" th:selected="*{typeId == 2}" >重要</option>
+									<option value="3" th:selected="*{typeId == 3}" >できれば</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-sm-4 col-form-label" for="title">やること</label>
+							<div class="col-sm-8" >
+								<input class="form-control" type="text" name="title" id="title" th:value="*{title}"/>
+								<div class="text-danger" th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></div>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-sm-4 col-form-label" for="detail">詳細</label>
+							<div class="col-sm-8" >
+								<input class="form-control" type="text" name="detail" id="detail" th:value="*{detail}"/>
+								<div class="text-danger" th:if="${#fields.hasErrors('detail')}" th:errors="*{detail}"></div>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-sm-4 col-form-label" for="deadline">期限</label>
+							<div class="col-sm-8" >
+								<input class="form-control" type="datetime-local" name="deadline" id="deadline" th:value="*{deadline}"/>
+								<div class="text-danger" th:if="${#fields.hasErrors('deadline')}" th:errors="*{deadline}"></div>
+							</div>
+						</div>
+						<input th:if="${taskId}" type="hidden" name="taskId" th:value="${taskId}"/>
+						<a class="btn btn-secondary" th:unless="${taskForm.newTask}" th:href="@{/task}">戻る</a>
+						<input class="btn btn-success" type="submit" value="送信"/>
+					</form>
+				</div>
+			</div>
+			<div class="mt-4" th:if="${taskForm.newTask}">
+				<h3>タスク　編集削除</h3>
+				<div class="container">
+					<table class="table table-striped">
+						<tr class="text-center">
+							<th scope="col">番号</th>
+							<th scope="col">タイトル</th>
+							<th scope="col">期限</th>
+							<th scope="col">タイプ</th>
+							<th scope="col">操作</th>
+						</tr>
+						<tr class="text-center" th:each="task:${list}">
+							<td scope="row" th:text="${task.id}"></td>
+							<td th:text="${task.title}"></td>
+							<td th:text="${task.deadline}"></td>
+							<td th:text="${task.taskType.type}"></td>
+							<td>
+								<a class="btn btn-warning" th:href="@{/task/{id}(id=${task.id})}">編集</a>
+								<form class="form d-inline" method="post" action="#" th:action="@{/task/delete}" th:object="${taskForm}">
+									<input type="hidden" th:value="${task.id}" name="id"/>
+									<button class="btn btn-danger" type="submit">削除</button>
+								</form>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="text-center text-danger mb-2">{{ message }}</div>
+  <form class="form" #form="ngForm" (ngSubmit)="regis()">
+    <div class="row form-group">
+      <label for="description" class="col-form-label col-sm-3">内容</label>
+      <div class="col-sm-9">
+        <input
+          [(ngModel)]="todo.description"
+          type="text"
+          class="form-control"
+          id="description"
+          name="description">
+      </div>
+    </div>
+    <div class="row form-group">
+      <label for="targetDate" class="col-form-label col-sm-3">締切</label>
+      <div class="col-sm-9">
+        <input
+          [(ngModel)]="todo.targetDate"
+          type="datetime-local"
+          class="form-control"
+          id="targetDate"
+          name="targetDate">
+      </div>
+    </div>
+    <div class="row form-group">
+      <label for="status" class="col-form-label col-sm-3">状態</label>
+      <div class="col-sm-9">
+        <select class="form-control" id="status" name="status" [(ngModel)]="todo.status">
+            <option value="not-start">未着手</option>
+            <option value="inprogress">実施中</option>
+            <option value="done">完了</option>
+          </select>
+      </div>
+    </div>
+    <div class="row form-group">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-9">
+        <button type="submit" class="btn btn-primary">保存</button>
+        <a class="ml-3" routerLink="/todos">戻る</a>
+      </div>
+    </div>
+
+  </form>
+</div>

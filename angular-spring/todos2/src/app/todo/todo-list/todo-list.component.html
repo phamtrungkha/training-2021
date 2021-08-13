@@ -1,0 +1,22 @@
+<div class="container">
+  <table class="table table-striped">
+    <tr>
+      <th>番号</th>
+      <th>内容</th>
+      <th>締切</th>
+      <th>状態</th>
+      <th class="text-center">動作</th>
+    </tr>
+    <tr *ngFor="let todo of todos">
+      <td>{{ todo.id }}</td>
+      <td>{{ todo.description }}</td>
+      <td>{{ todo.targetDate }}</td>
+      <td>{{ todo.status }}</td>
+      <td class="text-center">
+        <button class="btn btn-warning" (click)="gotoUpdate(todo.id)">更新</button>
+        <button class="btn btn-danger ml-2" (click)="deleteTodo(todo.id)">削除</button>
+      </td>
+    </tr>
+  </table>
+  <a class="btn btn-primary text-light" routerLink="/todos/0">新規登録</a>
+</div>

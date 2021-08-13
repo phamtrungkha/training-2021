@@ -1,0 +1,652 @@
+10-Aug-2021 22:26:43.632 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/8.5.69
+10-Aug-2021 22:26:43.640 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jun 30 2021 18:00:00 UTC
+10-Aug-2021 22:26:43.643 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 8.5.69.0
+10-Aug-2021 22:26:43.644 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Windows 10
+10-Aug-2021 22:26:43.644 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+10-Aug-2021 22:26:43.644 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           amd64
+10-Aug-2021 22:26:43.645 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                C:\Program Files\Java\jdk-16.0.1
+10-Aug-2021 22:26:43.646 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           16.0.1+9-24
+10-Aug-2021 22:26:43.646 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+10-Aug-2021 22:26:43.647 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:26:43.647 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:26:43.648 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2021 22:26:43.648 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2021 22:26:43.649 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2021 22:26:43.649 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2021 22:26:43.650 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2021 22:26:43.650 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\conf\logging.properties
+10-Aug-2021 22:26:43.651 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2021 22:26:43.651 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+10-Aug-2021 22:26:43.652 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Aug-2021 22:26:43.652 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+10-Aug-2021 22:26:43.653 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:26:43.653 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:26:43.654 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\temp
+10-Aug-2021 22:26:43.654 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.30]をロードしました。
+10-Aug-2021 22:26:43.655 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]
+10-Aug-2021 22:26:43.656 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL設定：useAprConnector [false]、useOpenSSL [true]
+10-Aug-2021 22:26:43.680 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLは[OpenSSL 1.1.1k  25 Mar 2021]を正常に初期化しました。
+10-Aug-2021 22:26:43.788 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+10-Aug-2021 22:26:44.024 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Aug-2021 22:26:44.050 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1619 ms
+10-Aug-2021 22:26:44.158 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+10-Aug-2021 22:26:44.161 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/8.5.69]
+10-Aug-2021 22:26:44.244 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Webアプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] を配備します
+10-Aug-2021 22:26:51.215 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+10-Aug-2021 22:26:51.638 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Web アプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] の配備は [7,393] ms で完了しました。
+10-Aug-2021 22:26:51.643 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+10-Aug-2021 22:26:51.657 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 7607 ms
+10-Aug-2021 22:27:55.168 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/8.5.69
+10-Aug-2021 22:27:55.175 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jun 30 2021 18:00:00 UTC
+10-Aug-2021 22:27:55.175 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 8.5.69.0
+10-Aug-2021 22:27:55.177 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Windows 10
+10-Aug-2021 22:27:55.178 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+10-Aug-2021 22:27:55.179 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           amd64
+10-Aug-2021 22:27:55.180 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                C:\Program Files\Java\jdk-16.0.1
+10-Aug-2021 22:27:55.180 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           16.0.1+9-24
+10-Aug-2021 22:27:55.181 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+10-Aug-2021 22:27:55.181 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:27:55.182 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:27:55.183 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2021 22:27:55.183 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2021 22:27:55.183 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2021 22:27:55.184 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2021 22:27:55.185 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2021 22:27:55.190 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\conf\logging.properties
+10-Aug-2021 22:27:55.202 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2021 22:27:55.225 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+10-Aug-2021 22:27:55.226 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Aug-2021 22:27:55.228 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+10-Aug-2021 22:27:55.229 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:27:55.231 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:27:55.232 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\temp
+10-Aug-2021 22:27:55.233 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.30]をロードしました。
+10-Aug-2021 22:27:55.234 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]
+10-Aug-2021 22:27:55.234 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL設定：useAprConnector [false]、useOpenSSL [true]
+10-Aug-2021 22:27:55.242 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLは[OpenSSL 1.1.1k  25 Mar 2021]を正常に初期化しました。
+10-Aug-2021 22:27:55.345 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+10-Aug-2021 22:27:55.383 重大 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1077)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:557)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:850)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:336)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:222)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1147)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:599)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1074)
+		... 13 more
+10-Aug-2021 22:27:55.385 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 983 ms
+10-Aug-2021 22:27:55.474 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+10-Aug-2021 22:27:55.475 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/8.5.69]
+10-Aug-2021 22:27:55.511 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Webアプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] を配備します
+10-Aug-2021 22:28:00.556 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+10-Aug-2021 22:28:00.914 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Web アプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] の配備は [5,403] ms で完了しました。
+10-Aug-2021 22:28:00.921 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 5531 ms
+10-Aug-2021 22:28:00.936 重大 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.Net.bind(Net.java:541)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+10-Aug-2021 22:28:00.941 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+10-Aug-2021 22:28:00.942 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+10-Aug-2021 22:28:00.979 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+10-Aug-2021 22:28:00.980 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+10-Aug-2021 22:28:52.011 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/8.5.69
+10-Aug-2021 22:28:52.015 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jun 30 2021 18:00:00 UTC
+10-Aug-2021 22:28:52.018 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 8.5.69.0
+10-Aug-2021 22:28:52.018 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Windows 10
+10-Aug-2021 22:28:52.019 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+10-Aug-2021 22:28:52.020 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           amd64
+10-Aug-2021 22:28:52.020 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                C:\Program Files\Java\jdk-16.0.1
+10-Aug-2021 22:28:52.021 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           16.0.1+9-24
+10-Aug-2021 22:28:52.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+10-Aug-2021 22:28:52.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:28:52.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:28:52.023 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2021 22:28:52.023 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2021 22:28:52.024 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2021 22:28:52.024 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2021 22:28:52.025 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2021 22:28:52.027 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\conf\logging.properties
+10-Aug-2021 22:28:52.028 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2021 22:28:52.029 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+10-Aug-2021 22:28:52.030 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Aug-2021 22:28:52.031 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+10-Aug-2021 22:28:52.057 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:28:52.058 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:28:52.059 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\temp
+10-Aug-2021 22:28:52.059 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.30]をロードしました。
+10-Aug-2021 22:28:52.060 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]
+10-Aug-2021 22:28:52.060 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL設定：useAprConnector [false]、useOpenSSL [true]
+10-Aug-2021 22:28:52.066 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLは[OpenSSL 1.1.1k  25 Mar 2021]を正常に初期化しました。
+10-Aug-2021 22:28:52.145 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+10-Aug-2021 22:28:52.176 重大 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1077)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:557)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:850)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:336)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:222)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1147)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:599)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1074)
+		... 13 more
+10-Aug-2021 22:28:52.180 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 925 ms
+10-Aug-2021 22:28:52.285 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+10-Aug-2021 22:28:52.286 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/8.5.69]
+10-Aug-2021 22:28:52.319 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Webアプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] を配備します
+10-Aug-2021 22:28:57.560 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+10-Aug-2021 22:28:57.951 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Web アプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] の配備は [5,631] ms で完了しました。
+10-Aug-2021 22:28:57.971 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 5790 ms
+10-Aug-2021 22:28:57.984 重大 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.Net.bind(Net.java:541)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+10-Aug-2021 22:28:57.991 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+10-Aug-2021 22:28:57.992 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+10-Aug-2021 22:28:58.027 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+10-Aug-2021 22:28:58.029 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+10-Aug-2021 22:30:00.870 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/8.5.69
+10-Aug-2021 22:30:00.874 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jun 30 2021 18:00:00 UTC
+10-Aug-2021 22:30:00.876 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 8.5.69.0
+10-Aug-2021 22:30:00.879 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Windows 10
+10-Aug-2021 22:30:00.879 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+10-Aug-2021 22:30:00.879 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           amd64
+10-Aug-2021 22:30:00.880 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                C:\Program Files\Java\jdk-16.0.1
+10-Aug-2021 22:30:00.880 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           16.0.1+9-24
+10-Aug-2021 22:30:00.880 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+10-Aug-2021 22:30:00.881 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:30:00.881 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:30:00.881 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2021 22:30:00.882 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2021 22:30:00.882 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2021 22:30:00.883 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2021 22:30:00.883 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2021 22:30:00.884 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\conf\logging.properties
+10-Aug-2021 22:30:00.885 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2021 22:30:00.886 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+10-Aug-2021 22:30:00.887 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Aug-2021 22:30:00.888 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+10-Aug-2021 22:30:00.889 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:30:00.889 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:30:00.890 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\temp
+10-Aug-2021 22:30:00.891 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.30]をロードしました。
+10-Aug-2021 22:30:00.891 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]
+10-Aug-2021 22:30:00.892 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL設定：useAprConnector [false]、useOpenSSL [true]
+10-Aug-2021 22:30:00.898 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLは[OpenSSL 1.1.1k  25 Mar 2021]を正常に初期化しました。
+10-Aug-2021 22:30:00.990 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+10-Aug-2021 22:30:01.020 重大 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1077)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:557)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:850)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:336)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:222)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1147)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:599)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1074)
+		... 13 more
+10-Aug-2021 22:30:01.023 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 919 ms
+10-Aug-2021 22:30:01.105 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+10-Aug-2021 22:30:01.107 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/8.5.69]
+10-Aug-2021 22:30:01.147 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Webアプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] を配備します
+10-Aug-2021 22:30:05.986 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+10-Aug-2021 22:30:06.350 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Web アプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] の配備は [5,202] ms で完了しました。
+10-Aug-2021 22:30:06.355 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 5327 ms
+10-Aug-2021 22:30:06.369 重大 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.Net.bind(Net.java:541)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+10-Aug-2021 22:30:06.372 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+10-Aug-2021 22:30:06.375 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+10-Aug-2021 22:30:06.408 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+10-Aug-2021 22:30:06.410 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+10-Aug-2021 22:30:15.029 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/8.5.69
+10-Aug-2021 22:30:15.033 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jun 30 2021 18:00:00 UTC
+10-Aug-2021 22:30:15.035 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 8.5.69.0
+10-Aug-2021 22:30:15.037 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Windows 10
+10-Aug-2021 22:30:15.037 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+10-Aug-2021 22:30:15.037 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           amd64
+10-Aug-2021 22:30:15.038 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                C:\Program Files\Java\jdk-16.0.1
+10-Aug-2021 22:30:15.038 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           16.0.1+9-24
+10-Aug-2021 22:30:15.038 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+10-Aug-2021 22:30:15.038 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:30:15.039 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:30:15.039 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2021 22:30:15.039 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2021 22:30:15.040 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2021 22:30:15.040 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2021 22:30:15.041 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2021 22:30:15.042 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\conf\logging.properties
+10-Aug-2021 22:30:15.042 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2021 22:30:15.043 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+10-Aug-2021 22:30:15.043 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Aug-2021 22:30:15.044 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+10-Aug-2021 22:30:15.044 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:30:15.045 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:30:15.045 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\temp
+10-Aug-2021 22:30:15.046 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.30]をロードしました。
+10-Aug-2021 22:30:15.047 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]
+10-Aug-2021 22:30:15.047 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL設定：useAprConnector [false]、useOpenSSL [true]
+10-Aug-2021 22:30:15.054 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLは[OpenSSL 1.1.1k  25 Mar 2021]を正常に初期化しました。
+10-Aug-2021 22:30:15.145 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+10-Aug-2021 22:30:15.174 重大 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1077)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:557)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:850)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:336)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:222)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1147)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:599)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1074)
+		... 13 more
+10-Aug-2021 22:30:15.177 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 992 ms
+10-Aug-2021 22:30:15.263 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+10-Aug-2021 22:30:15.265 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/8.5.69]
+10-Aug-2021 22:30:15.303 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Webアプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] を配備します
+10-Aug-2021 22:30:20.545 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+10-Aug-2021 22:30:20.959 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Web アプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] の配備は [5,655] ms で完了しました。
+10-Aug-2021 22:30:20.964 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 5787 ms
+10-Aug-2021 22:30:20.977 重大 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.Net.bind(Net.java:541)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+10-Aug-2021 22:30:20.984 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+10-Aug-2021 22:30:20.985 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+10-Aug-2021 22:30:21.016 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+10-Aug-2021 22:30:21.017 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+10-Aug-2021 22:31:17.684 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/8.5.69
+10-Aug-2021 22:31:17.689 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jun 30 2021 18:00:00 UTC
+10-Aug-2021 22:31:17.691 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 8.5.69.0
+10-Aug-2021 22:31:17.692 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Windows 10
+10-Aug-2021 22:31:17.692 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+10-Aug-2021 22:31:17.693 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           amd64
+10-Aug-2021 22:31:17.693 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                C:\Program Files\Java\jdk-16.0.1
+10-Aug-2021 22:31:17.694 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           16.0.1+9-24
+10-Aug-2021 22:31:17.695 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+10-Aug-2021 22:31:17.695 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:31:17.695 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:31:17.696 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2021 22:31:17.697 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2021 22:31:17.698 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2021 22:31:17.698 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2021 22:31:17.699 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2021 22:31:17.699 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\conf\logging.properties
+10-Aug-2021 22:31:17.700 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2021 22:31:17.701 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+10-Aug-2021 22:31:17.701 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Aug-2021 22:31:17.702 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+10-Aug-2021 22:31:17.703 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:31:17.704 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:31:17.704 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\temp
+10-Aug-2021 22:31:17.705 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.30]をロードしました。
+10-Aug-2021 22:31:17.707 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]
+10-Aug-2021 22:31:17.724 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL設定：useAprConnector [false]、useOpenSSL [true]
+10-Aug-2021 22:31:17.731 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLは[OpenSSL 1.1.1k  25 Mar 2021]を正常に初期化しました。
+10-Aug-2021 22:31:17.808 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+10-Aug-2021 22:31:17.839 重大 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1077)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:557)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:850)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:336)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:222)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1147)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:599)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1074)
+		... 13 more
+10-Aug-2021 22:31:17.841 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 949 ms
+10-Aug-2021 22:31:17.922 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+10-Aug-2021 22:31:17.923 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/8.5.69]
+10-Aug-2021 22:31:17.964 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Webアプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] を配備します
+10-Aug-2021 22:31:23.098 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+10-Aug-2021 22:31:23.478 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Web アプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] の配備は [5,513] ms で完了しました。
+10-Aug-2021 22:31:23.483 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 5640 ms
+10-Aug-2021 22:31:23.494 重大 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.Net.bind(Net.java:541)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+10-Aug-2021 22:31:23.499 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+10-Aug-2021 22:31:23.500 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+10-Aug-2021 22:31:23.541 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+10-Aug-2021 22:31:23.543 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+10-Aug-2021 22:47:03.826 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/8.5.69
+10-Aug-2021 22:47:03.831 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jun 30 2021 18:00:00 UTC
+10-Aug-2021 22:47:03.833 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 8.5.69.0
+10-Aug-2021 22:47:03.834 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Windows 10
+10-Aug-2021 22:47:03.835 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+10-Aug-2021 22:47:03.835 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           amd64
+10-Aug-2021 22:47:03.835 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                C:\Program Files\Java\jdk-16.0.1
+10-Aug-2021 22:47:03.836 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           16.0.1+9-24
+10-Aug-2021 22:47:03.837 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+10-Aug-2021 22:47:03.837 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:47:03.838 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:47:03.839 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2021 22:47:03.839 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2021 22:47:03.840 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2021 22:47:03.840 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2021 22:47:03.841 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2021 22:47:03.841 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\conf\logging.properties
+10-Aug-2021 22:47:03.842 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2021 22:47:03.843 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+10-Aug-2021 22:47:03.844 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Aug-2021 22:47:03.844 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+10-Aug-2021 22:47:03.845 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:47:03.846 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:47:03.847 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\temp
+10-Aug-2021 22:47:03.847 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.30]をロードしました。
+10-Aug-2021 22:47:03.848 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]
+10-Aug-2021 22:47:03.849 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL設定：useAprConnector [false]、useOpenSSL [true]
+10-Aug-2021 22:47:03.857 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLは[OpenSSL 1.1.1k  25 Mar 2021]を正常に初期化しました。
+10-Aug-2021 22:47:03.944 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+10-Aug-2021 22:47:03.973 重大 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1077)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:557)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:850)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:336)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:222)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1147)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:599)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1074)
+		... 13 more
+10-Aug-2021 22:47:03.976 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 940 ms
+10-Aug-2021 22:47:04.067 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+10-Aug-2021 22:47:04.069 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/8.5.69]
+10-Aug-2021 22:47:04.109 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Webアプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] を配備します
+10-Aug-2021 22:47:09.288 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+10-Aug-2021 22:47:09.641 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom セッション ID を生成するための SecureRandom インスタンスの作成に [106] ミリ秒かかりました。アルゴリズムは [SHA1PRNG] です。
+10-Aug-2021 22:47:09.683 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Web アプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] の配備は [5,575] ms で完了しました。
+10-Aug-2021 22:47:09.689 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 5708 ms
+10-Aug-2021 22:47:09.703 重大 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.Net.bind(Net.java:541)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+10-Aug-2021 22:47:09.705 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+10-Aug-2021 22:47:09.708 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+10-Aug-2021 22:47:09.743 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+10-Aug-2021 22:47:09.746 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+10-Aug-2021 22:50:27.962 情報 [Thread-3] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+10-Aug-2021 22:50:38.904 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/8.5.69
+10-Aug-2021 22:50:38.911 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jun 30 2021 18:00:00 UTC
+10-Aug-2021 22:50:38.912 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 8.5.69.0
+10-Aug-2021 22:50:38.912 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Windows 10
+10-Aug-2021 22:50:38.913 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+10-Aug-2021 22:50:38.913 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           amd64
+10-Aug-2021 22:50:38.914 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                C:\Program Files\Java\jdk-16.0.1
+10-Aug-2021 22:50:38.915 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           16.0.1+9-24
+10-Aug-2021 22:50:38.916 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+10-Aug-2021 22:50:38.916 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:50:38.917 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:50:38.917 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2021 22:50:38.919 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2021 22:50:38.919 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2021 22:50:38.920 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2021 22:50:38.920 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2021 22:50:38.921 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\conf\logging.properties
+10-Aug-2021 22:50:38.922 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2021 22:50:38.923 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+10-Aug-2021 22:50:38.923 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Aug-2021 22:50:38.924 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+10-Aug-2021 22:50:38.924 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:50:38.925 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:50:38.926 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\temp
+10-Aug-2021 22:50:38.926 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.30]をロードしました。
+10-Aug-2021 22:50:38.927 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]
+10-Aug-2021 22:50:38.929 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL設定：useAprConnector [false]、useOpenSSL [true]
+10-Aug-2021 22:50:38.955 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLは[OpenSSL 1.1.1k  25 Mar 2021]を正常に初期化しました。
+10-Aug-2021 22:50:39.037 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+10-Aug-2021 22:50:39.234 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Aug-2021 22:50:39.256 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1193 ms
+10-Aug-2021 22:50:39.340 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+10-Aug-2021 22:50:39.341 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/8.5.69]
+10-Aug-2021 22:50:39.377 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Webアプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] を配備します
+10-Aug-2021 22:50:44.939 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+10-Aug-2021 22:50:45.295 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Web アプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] の配備は [5,917] ms で完了しました。
+10-Aug-2021 22:50:45.300 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+10-Aug-2021 22:50:45.321 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 6063 ms
+10-Aug-2021 22:51:35.368 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\docs] を配備します
+10-Aug-2021 22:51:35.450 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\docs] の Web アプリケーションの配備は [81] ms で完了しました。
+10-Aug-2021 22:51:35.451 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\examples] を配備します
+10-Aug-2021 22:51:36.262 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\examples] の Web アプリケーションの配備は [812] ms で完了しました。
+10-Aug-2021 22:51:36.263 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\host-manager] を配備します
+10-Aug-2021 22:51:36.342 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\host-manager] の Web アプリケーションの配備は [79] ms で完了しました。
+10-Aug-2021 22:51:36.343 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\manager] を配備します
+10-Aug-2021 22:51:36.464 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\manager] の Web アプリケーションの配備は [121] ms で完了しました。
+10-Aug-2021 22:51:36.491 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\ROOT] を配備します
+10-Aug-2021 22:51:36.717 情報 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\ROOT] の Web アプリケーションの配備は [226] ms で完了しました。
+10-Aug-2021 22:59:35.357 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/8.5.69
+10-Aug-2021 22:59:35.366 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jun 30 2021 18:00:00 UTC
+10-Aug-2021 22:59:35.367 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 8.5.69.0
+10-Aug-2021 22:59:35.368 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Windows 10
+10-Aug-2021 22:59:35.368 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+10-Aug-2021 22:59:35.369 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           amd64
+10-Aug-2021 22:59:35.369 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                C:\Program Files\Java\jdk-16.0.1
+10-Aug-2021 22:59:35.370 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           16.0.1+9-24
+10-Aug-2021 22:59:35.370 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Oracle Corporation
+10-Aug-2021 22:59:35.370 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:59:35.370 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:59:35.371 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2021 22:59:35.371 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2021 22:59:35.372 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2021 22:59:35.372 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2021 22:59:35.373 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2021 22:59:35.374 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\conf\logging.properties
+10-Aug-2021 22:59:35.376 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2021 22:59:35.391 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+10-Aug-2021 22:59:35.392 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Aug-2021 22:59:35.395 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+10-Aug-2021 22:59:35.397 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:59:35.399 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69
+10-Aug-2021 22:59:35.401 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\temp
+10-Aug-2021 22:59:35.403 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.30]をロードしました。
+10-Aug-2021 22:59:35.405 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]
+10-Aug-2021 22:59:35.406 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL設定：useAprConnector [false]、useOpenSSL [true]
+10-Aug-2021 22:59:35.415 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLは[OpenSSL 1.1.1k  25 Mar 2021]を正常に初期化しました。
+10-Aug-2021 22:59:35.492 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+10-Aug-2021 22:59:35.690 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Aug-2021 22:59:35.716 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1191 ms
+10-Aug-2021 22:59:35.807 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+10-Aug-2021 22:59:35.810 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/8.5.69]
+10-Aug-2021 22:59:35.876 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Webアプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] を配備します
+10-Aug-2021 22:59:41.401 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+10-Aug-2021 22:59:41.769 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Web アプリケーションアーカイブ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\TodosWebService.war] の配備は [5,891] ms で完了しました。
+10-Aug-2021 22:59:41.771 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\docs] を配備します
+10-Aug-2021 22:59:41.835 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\docs] の Web アプリケーションの配備は [64] ms で完了しました。
+10-Aug-2021 22:59:41.836 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\examples] を配備します
+10-Aug-2021 22:59:42.464 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\examples] の Web アプリケーションの配備は [628] ms で完了しました。
+10-Aug-2021 22:59:42.465 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\host-manager] を配備します
+10-Aug-2021 22:59:42.553 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\host-manager] の Web アプリケーションの配備は [88] ms で完了しました。
+10-Aug-2021 22:59:42.555 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\manager] を配備します
+10-Aug-2021 22:59:42.657 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\manager] の Web アプリケーションの配備は [101] ms で完了しました。
+10-Aug-2021 22:59:42.658 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\ROOT] を配備します
+10-Aug-2021 22:59:42.733 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\Onsiter\Desktop\Project\Kha\training\apache-tomcat-8.5.69\webapps\ROOT] の Web アプリケーションの配備は [75] ms で完了しました。
+10-Aug-2021 22:59:42.739 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+10-Aug-2021 22:59:42.770 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 7052 ms

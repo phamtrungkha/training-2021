@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="text-center">
+    <span class=" text-danger">{{ message }}</span>
+  </div>
+  <form class="form" #form="ngForm" (ngSubmit)="login(form)">
+    <div class="row form-group">
+      <label for="username" class="col-form-label col-sm-3">ユーザー名</label>
+      <div class="col-sm-9">
+        <input
+          ngModel
+          type="text"
+          class="form-control"
+          id="username"
+          name="username">
+      </div>
+    </div>
+    <div class="row form-group">
+      <label for="password" class="col-form-label col-sm-3">パスワード</label>
+      <div class="col-sm-9">
+        <input
+          ngModel
+          type="password"
+          class="form-control"
+          id="password"
+          name="password">
+      </div>
+    </div>
+    <div class="row form-group">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-9">
+        <button type="submit" class="btn btn-primary">ログイン</button>
+        <a class="ml-3" routerLink="/signup">サインアップ</a>
+      </div>
+    </div>
+
+  </form>
+</div>

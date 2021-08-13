@@ -1,0 +1,70 @@
+<div class="container">
+  <div class="text-center text-danger">{{ message }}</div>
+  <form class="form" #form="ngForm" (ngSubmit)="update(form)">
+    <div class="row form-group">
+      <label for="username" class="col-form-label col-sm-3">ユーザー名</label>
+      <div class="col-sm-9">
+        <input
+          [(ngModel)]="user.username"
+          type="text"
+          class="form-control"
+          id="username"
+          name="username"
+          readonly="readonly">
+      </div>
+    </div>
+    <u class="text-info" *ngIf="!changePass" (click)="changePass = true">パスワード変更</u>
+    <div class="row form-group" *ngIf="changePass">
+      <label for="oldpassword" class="col-form-label col-sm-3">旧パスワード</label>
+      <div class="col-sm-9">
+        <input
+          ngModel
+          type="password"
+          class="form-control"
+          id="oldpassword"
+          name="oldpassword">
+      </div>
+    </div>
+    <div class="row form-group" *ngIf="changePass">
+      <label for="password" class="col-form-label col-sm-3">新パスワード</label>
+      <div class="col-sm-9">
+        <input
+          ngModel
+          type="password"
+          class="form-control"
+          id="password"
+          name="password">
+      </div>
+    </div>
+    <div class="row form-group" *ngIf="changePass">
+      <label for="password2" class="col-form-label col-sm-3">新パスワード（再）</label>
+      <div class="col-sm-9">
+        <input
+          ngModel
+          type="password"
+          class="form-control"
+          id="password2"
+          name="password2">
+      </div>
+    </div>
+    <div class="row form-group">
+      <label for="email" class="col-form-label col-sm-3">メール</label>
+      <div class="col-sm-9">
+        <input
+          [(ngModel)]="user.email"
+          type="email"
+          class="form-control"
+          id="email"
+          name="email">
+      </div>
+    </div>
+    <div class="row form-group">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-9">
+        <button type="submit" class="btn btn-primary">保存</button>
+        <a class="ml-3" routerLink="/">戻る</a>
+      </div>
+    </div>
+
+  </form>
+</div>

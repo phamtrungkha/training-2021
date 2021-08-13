@@ -1,0 +1,406 @@
+[Tue Aug 10 09:03:43.441800 2021] [mpm_winnt:notice] [pid 14108:tid 604] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Aug 10 09:03:43.442798 2021] [mpm_winnt:notice] [pid 14108:tid 604] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Tue Aug 10 09:03:43.442798 2021] [core:notice] [pid 14108:tid 604] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Tue Aug 10 09:03:43.465742 2021] [mpm_winnt:notice] [pid 14108:tid 604] AH00418: Parent: Created child process 16620
+[Tue Aug 10 09:03:44.014899 2021] [mpm_winnt:notice] [pid 16620:tid 504] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 10 09:03:51.207150 2021] [mpm_winnt:notice] [pid 14108:tid 604] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 10 09:04:21.218407 2021] [mpm_winnt:notice] [pid 14108:tid 604] AH00431: Parent: Forcing termination of child process 16620
+[Tue Aug 10 09:11:58.629115 2021] [mpm_winnt:notice] [pid 3088:tid 560] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Aug 10 09:11:58.630114 2021] [mpm_winnt:notice] [pid 3088:tid 560] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Tue Aug 10 09:11:58.630114 2021] [core:notice] [pid 3088:tid 560] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Tue Aug 10 09:11:58.648067 2021] [mpm_winnt:notice] [pid 3088:tid 560] AH00418: Parent: Created child process 4248
+[Tue Aug 10 09:11:59.153538 2021] [mpm_winnt:notice] [pid 4248:tid 464] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 10 09:15:50.594669 2021] [mpm_winnt:notice] [pid 3088:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 10 09:15:52.615419 2021] [mpm_winnt:notice] [pid 4248:tid 464] AH00364: Child: All worker threads have exited.
+[Tue Aug 10 09:15:52.657857 2021] [mpm_winnt:notice] [pid 3088:tid 560] AH00430: Parent: Child process 4248 exited successfully.
+[Tue Aug 10 09:16:21.004926 2021] [mpm_winnt:notice] [pid 404:tid 576] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Aug 10 09:16:21.005924 2021] [mpm_winnt:notice] [pid 404:tid 576] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Tue Aug 10 09:16:21.005924 2021] [core:notice] [pid 404:tid 576] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Tue Aug 10 09:16:21.025872 2021] [mpm_winnt:notice] [pid 404:tid 576] AH00418: Parent: Created child process 8352
+[Tue Aug 10 09:16:21.541480 2021] [mpm_winnt:notice] [pid 8352:tid 480] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 10 09:17:59.601656 2021] [mpm_winnt:notice] [pid 404:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 10 09:18:29.100331 2021] [mpm_winnt:notice] [pid 8352:tid 480] AH00364: Child: All worker threads have exited.
+[Tue Aug 10 09:18:29.152148 2021] [mpm_winnt:notice] [pid 404:tid 576] AH00430: Parent: Child process 8352 exited successfully.
+[Tue Aug 10 09:18:29.820380 2021] [mpm_winnt:notice] [pid 16660:tid 596] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Aug 10 09:18:29.821379 2021] [mpm_winnt:notice] [pid 16660:tid 596] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Tue Aug 10 09:18:29.821379 2021] [core:notice] [pid 16660:tid 596] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Tue Aug 10 09:18:29.839331 2021] [mpm_winnt:notice] [pid 16660:tid 596] AH00418: Parent: Created child process 4380
+[Tue Aug 10 09:18:30.252864 2021] [mpm_winnt:notice] [pid 4380:tid 484] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 10 09:21:43.562042 2021] [mpm_winnt:notice] [pid 16660:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 10 09:21:45.578358 2021] [mpm_winnt:notice] [pid 4380:tid 484] AH00364: Child: All worker threads have exited.
+[Tue Aug 10 09:21:45.608398 2021] [mpm_winnt:notice] [pid 16660:tid 596] AH00430: Parent: Child process 4380 exited successfully.
+[Tue Aug 10 09:21:46.727505 2021] [mpm_winnt:notice] [pid 6436:tid 460] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Tue Aug 10 09:21:46.728503 2021] [mpm_winnt:notice] [pid 6436:tid 460] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Tue Aug 10 09:21:46.728503 2021] [core:notice] [pid 6436:tid 460] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Tue Aug 10 09:21:46.752439 2021] [mpm_winnt:notice] [pid 6436:tid 460] AH00418: Parent: Created child process 3088
+[Tue Aug 10 09:21:47.261104 2021] [mpm_winnt:notice] [pid 3088:tid 524] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 11 22:37:37.009213 2021] [mpm_winnt:notice] [pid 6436:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 11 22:37:39.026657 2021] [mpm_winnt:notice] [pid 3088:tid 524] AH00364: Child: All worker threads have exited.
+[Wed Aug 11 22:37:39.112447 2021] [mpm_winnt:notice] [pid 6436:tid 460] AH00430: Parent: Child process 3088 exited successfully.
+[Wed Aug 11 22:42:56.060096 2021] [mpm_winnt:notice] [pid 10280:tid 552] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Wed Aug 11 22:42:56.061104 2021] [mpm_winnt:notice] [pid 10280:tid 552] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Wed Aug 11 22:42:56.061104 2021] [core:notice] [pid 10280:tid 552] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Wed Aug 11 22:42:56.081051 2021] [mpm_winnt:notice] [pid 10280:tid 552] AH00418: Parent: Created child process 13408
+[Wed Aug 11 22:42:56.627594 2021] [mpm_winnt:notice] [pid 13408:tid 128] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 09:26:30.575949 2021] [mpm_winnt:notice] [pid 10280:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 09:26:32.612677 2021] [mpm_winnt:notice] [pid 13408:tid 128] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 09:26:32.693154 2021] [mpm_winnt:notice] [pid 10280:tid 552] AH00430: Parent: Child process 13408 exited successfully.
+[Thu Aug 12 09:26:33.624061 2021] [mpm_winnt:notice] [pid 14224:tid 580] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 09:26:33.625059 2021] [mpm_winnt:notice] [pid 14224:tid 580] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 09:26:33.625059 2021] [core:notice] [pid 14224:tid 580] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 09:26:33.698863 2021] [mpm_winnt:notice] [pid 14224:tid 580] AH00418: Parent: Created child process 6508
+[Thu Aug 12 09:26:34.246154 2021] [mpm_winnt:notice] [pid 6508:tid 388] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 09:31:46.911665 2021] [mpm_winnt:notice] [pid 14224:tid 580] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 09:31:48.932874 2021] [mpm_winnt:notice] [pid 6508:tid 388] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 09:31:48.963511 2021] [mpm_winnt:notice] [pid 14224:tid 580] AH00430: Parent: Child process 6508 exited successfully.
+[Thu Aug 12 09:31:50.029766 2021] [mpm_winnt:notice] [pid 16340:tid 576] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 09:31:50.032758 2021] [mpm_winnt:notice] [pid 16340:tid 576] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 09:31:50.032758 2021] [core:notice] [pid 16340:tid 576] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 09:31:50.056696 2021] [mpm_winnt:notice] [pid 16340:tid 576] AH00418: Parent: Created child process 14228
+[Thu Aug 12 09:31:50.641862 2021] [mpm_winnt:notice] [pid 14228:tid 516] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 09:38:20.869172 2021] [mpm_winnt:notice] [pid 16340:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 09:38:22.882780 2021] [mpm_winnt:notice] [pid 14228:tid 516] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 09:38:22.926225 2021] [mpm_winnt:notice] [pid 16340:tid 576] AH00430: Parent: Child process 14228 exited successfully.
+[Thu Aug 12 09:38:23.857356 2021] [mpm_winnt:notice] [pid 17024:tid 592] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 09:38:23.858352 2021] [mpm_winnt:notice] [pid 17024:tid 592] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 09:38:23.858352 2021] [core:notice] [pid 17024:tid 592] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 09:38:23.877302 2021] [mpm_winnt:notice] [pid 17024:tid 592] AH00418: Parent: Created child process 16908
+[Thu Aug 12 09:38:24.392995 2021] [mpm_winnt:notice] [pid 16908:tid 448] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 09:47:15.587783 2021] [mpm_winnt:notice] [pid 17024:tid 592] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 09:47:17.602572 2021] [mpm_winnt:notice] [pid 16908:tid 448] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 09:47:17.635642 2021] [mpm_winnt:notice] [pid 17024:tid 592] AH00430: Parent: Child process 16908 exited successfully.
+[Thu Aug 12 09:47:18.555797 2021] [mpm_winnt:notice] [pid 6716:tid 596] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 09:47:18.556831 2021] [mpm_winnt:notice] [pid 6716:tid 596] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 09:47:18.556831 2021] [core:notice] [pid 6716:tid 596] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 09:47:18.577741 2021] [mpm_winnt:notice] [pid 6716:tid 596] AH00418: Parent: Created child process 8020
+[Thu Aug 12 09:47:19.064359 2021] [mpm_winnt:notice] [pid 8020:tid 524] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 09:53:22.038308 2021] [mpm_winnt:notice] [pid 6716:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 09:53:24.056082 2021] [mpm_winnt:notice] [pid 8020:tid 524] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 09:53:24.095010 2021] [mpm_winnt:notice] [pid 6716:tid 596] AH00430: Parent: Child process 8020 exited successfully.
+[Thu Aug 12 09:55:05.671965 2021] [mpm_winnt:notice] [pid 10356:tid 468] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 09:55:05.672963 2021] [mpm_winnt:notice] [pid 10356:tid 468] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 09:55:05.672963 2021] [core:notice] [pid 10356:tid 468] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 09:55:05.693915 2021] [mpm_winnt:notice] [pid 10356:tid 468] AH00418: Parent: Created child process 9364
+[Thu Aug 12 09:55:06.102955 2021] [mpm_winnt:notice] [pid 9364:tid 528] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 09:58:07.334358 2021] [mpm_winnt:notice] [pid 10356:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 09:58:09.356581 2021] [mpm_winnt:notice] [pid 9364:tid 528] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 09:58:09.406692 2021] [mpm_winnt:notice] [pid 10356:tid 468] AH00430: Parent: Child process 9364 exited successfully.
+[Thu Aug 12 09:58:10.385880 2021] [mpm_winnt:notice] [pid 8144:tid 572] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 09:58:10.386877 2021] [mpm_winnt:notice] [pid 8144:tid 572] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 09:58:10.386877 2021] [core:notice] [pid 8144:tid 572] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 09:58:10.414802 2021] [mpm_winnt:notice] [pid 8144:tid 572] AH00418: Parent: Created child process 18428
+[Thu Aug 12 09:58:10.838668 2021] [mpm_winnt:notice] [pid 18428:tid 480] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 09:59:22.140689 2021] [mpm_winnt:notice] [pid 8144:tid 572] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 09:59:24.169907 2021] [mpm_winnt:notice] [pid 18428:tid 480] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 09:59:24.205998 2021] [mpm_winnt:notice] [pid 8144:tid 572] AH00430: Parent: Child process 18428 exited successfully.
+[Thu Aug 12 09:59:25.267085 2021] [mpm_winnt:notice] [pid 17672:tid 552] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 09:59:25.268081 2021] [mpm_winnt:notice] [pid 17672:tid 552] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 09:59:25.268081 2021] [core:notice] [pid 17672:tid 552] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 09:59:25.289041 2021] [mpm_winnt:notice] [pid 17672:tid 552] AH00418: Parent: Created child process 3720
+[Thu Aug 12 09:59:25.822981 2021] [mpm_winnt:notice] [pid 3720:tid 520] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:00:21.798967 2021] [mpm_winnt:notice] [pid 17672:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:00:51.799891 2021] [mpm_winnt:notice] [pid 17672:tid 552] AH00431: Parent: Forcing termination of child process 3720
+[Thu Aug 12 10:00:52.441997 2021] [mpm_winnt:notice] [pid 11556:tid 576] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:00:52.442995 2021] [mpm_winnt:notice] [pid 11556:tid 576] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:00:52.442995 2021] [core:notice] [pid 11556:tid 576] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:00:52.462942 2021] [mpm_winnt:notice] [pid 11556:tid 576] AH00418: Parent: Created child process 17060
+[Thu Aug 12 10:00:53.010605 2021] [mpm_winnt:notice] [pid 17060:tid 520] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:01:36.820508 2021] [mpm_winnt:notice] [pid 11556:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:01:38.835059 2021] [mpm_winnt:notice] [pid 17060:tid 520] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:01:38.863891 2021] [mpm_winnt:notice] [pid 11556:tid 576] AH00430: Parent: Child process 17060 exited successfully.
+[Thu Aug 12 10:01:39.959355 2021] [mpm_winnt:notice] [pid 13536:tid 556] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:01:39.960352 2021] [mpm_winnt:notice] [pid 13536:tid 556] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:01:39.960352 2021] [core:notice] [pid 13536:tid 556] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:01:39.982295 2021] [mpm_winnt:notice] [pid 13536:tid 556] AH00418: Parent: Created child process 7172
+[Thu Aug 12 10:01:40.376019 2021] [mpm_winnt:notice] [pid 7172:tid 480] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:03:19.756332 2021] [mpm_winnt:notice] [pid 13536:tid 556] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:03:21.778581 2021] [mpm_winnt:notice] [pid 7172:tid 480] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:03:21.825137 2021] [mpm_winnt:notice] [pid 13536:tid 556] AH00430: Parent: Child process 7172 exited successfully.
+[Thu Aug 12 10:03:22.853457 2021] [mpm_winnt:notice] [pid 10580:tid 564] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:03:22.854454 2021] [mpm_winnt:notice] [pid 10580:tid 564] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:03:22.854454 2021] [core:notice] [pid 10580:tid 564] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:03:22.880416 2021] [mpm_winnt:notice] [pid 10580:tid 564] AH00418: Parent: Created child process 10176
+[Thu Aug 12 10:03:23.286128 2021] [mpm_winnt:notice] [pid 10176:tid 552] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:03:56.768885 2021] [mpm_winnt:notice] [pid 10580:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:03:58.778188 2021] [mpm_winnt:notice] [pid 10176:tid 552] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:03:58.811583 2021] [mpm_winnt:notice] [pid 10580:tid 564] AH00430: Parent: Child process 10176 exited successfully.
+[Thu Aug 12 10:03:59.955539 2021] [mpm_winnt:notice] [pid 13400:tid 572] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:03:59.955539 2021] [mpm_winnt:notice] [pid 13400:tid 572] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:03:59.956508 2021] [core:notice] [pid 13400:tid 572] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:03:59.978451 2021] [mpm_winnt:notice] [pid 13400:tid 572] AH00418: Parent: Created child process 9220
+[Thu Aug 12 10:04:00.421736 2021] [mpm_winnt:notice] [pid 9220:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:04:54.670830 2021] [mpm_winnt:notice] [pid 13400:tid 572] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:04:56.691355 2021] [mpm_winnt:notice] [pid 9220:tid 496] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:04:56.737169 2021] [mpm_winnt:notice] [pid 13400:tid 572] AH00430: Parent: Child process 9220 exited successfully.
+[Thu Aug 12 10:04:57.756548 2021] [mpm_winnt:notice] [pid 7648:tid 560] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:04:57.757546 2021] [mpm_winnt:notice] [pid 7648:tid 560] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:04:57.757546 2021] [core:notice] [pid 7648:tid 560] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:04:57.780483 2021] [mpm_winnt:notice] [pid 7648:tid 560] AH00418: Parent: Created child process 6156
+[Thu Aug 12 10:04:58.174771 2021] [mpm_winnt:notice] [pid 6156:tid 500] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:05:48.588331 2021] [mpm_winnt:notice] [pid 7648:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:05:50.605198 2021] [mpm_winnt:notice] [pid 6156:tid 500] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:05:50.647904 2021] [mpm_winnt:notice] [pid 7648:tid 560] AH00430: Parent: Child process 6156 exited successfully.
+[Thu Aug 12 10:05:51.677823 2021] [mpm_winnt:notice] [pid 14424:tid 564] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:05:51.678837 2021] [mpm_winnt:notice] [pid 14424:tid 564] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:05:51.678837 2021] [core:notice] [pid 14424:tid 564] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:05:51.696770 2021] [mpm_winnt:notice] [pid 14424:tid 564] AH00418: Parent: Created child process 1560
+[Thu Aug 12 10:05:52.217831 2021] [mpm_winnt:notice] [pid 1560:tid 484] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:07:53.575775 2021] [mpm_winnt:notice] [pid 14424:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:07:55.590829 2021] [mpm_winnt:notice] [pid 1560:tid 484] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:07:55.624812 2021] [mpm_winnt:notice] [pid 14424:tid 564] AH00430: Parent: Child process 1560 exited successfully.
+[Thu Aug 12 10:07:56.556725 2021] [mpm_winnt:notice] [pid 4076:tid 556] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:07:56.556725 2021] [mpm_winnt:notice] [pid 4076:tid 556] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:07:56.556725 2021] [core:notice] [pid 4076:tid 556] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:07:56.576673 2021] [mpm_winnt:notice] [pid 4076:tid 556] AH00418: Parent: Created child process 3040
+[Thu Aug 12 10:07:57.079811 2021] [mpm_winnt:notice] [pid 3040:tid 524] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:08:18.989474 2021] [mpm_winnt:notice] [pid 4076:tid 556] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:08:21.009171 2021] [mpm_winnt:notice] [pid 3040:tid 524] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:08:21.036791 2021] [mpm_winnt:notice] [pid 4076:tid 556] AH00430: Parent: Child process 3040 exited successfully.
+[Thu Aug 12 10:08:21.960073 2021] [mpm_winnt:notice] [pid 6668:tid 560] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:08:21.961071 2021] [mpm_winnt:notice] [pid 6668:tid 560] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:08:21.961071 2021] [core:notice] [pid 6668:tid 560] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:08:21.980021 2021] [mpm_winnt:notice] [pid 6668:tid 560] AH00418: Parent: Created child process 9204
+[Thu Aug 12 10:08:22.409200 2021] [mpm_winnt:notice] [pid 9204:tid 508] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:13:00.671032 2021] [mpm_winnt:notice] [pid 6668:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:13:02.695316 2021] [mpm_winnt:notice] [pid 9204:tid 508] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:13:02.737302 2021] [mpm_winnt:notice] [pid 6668:tid 560] AH00430: Parent: Child process 9204 exited successfully.
+[Thu Aug 12 10:13:03.837148 2021] [mpm_winnt:notice] [pid 16892:tid 468] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:13:03.838143 2021] [mpm_winnt:notice] [pid 16892:tid 468] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:13:03.838143 2021] [core:notice] [pid 16892:tid 468] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:13:03.860091 2021] [mpm_winnt:notice] [pid 16892:tid 468] AH00418: Parent: Created child process 14424
+[Thu Aug 12 10:13:04.275016 2021] [mpm_winnt:notice] [pid 14424:tid 472] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:18:10.399957 2021] [mpm_winnt:notice] [pid 16892:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:18:12.427845 2021] [mpm_winnt:notice] [pid 14424:tid 472] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:18:12.459278 2021] [mpm_winnt:notice] [pid 16892:tid 468] AH00430: Parent: Child process 14424 exited successfully.
+[Thu Aug 12 10:18:13.538652 2021] [mpm_winnt:notice] [pid 3932:tid 608] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:18:13.540647 2021] [mpm_winnt:notice] [pid 3932:tid 608] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:18:13.540647 2021] [core:notice] [pid 3932:tid 608] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:18:13.569569 2021] [mpm_winnt:notice] [pid 3932:tid 608] AH00418: Parent: Created child process 17264
+[Thu Aug 12 10:18:14.111387 2021] [mpm_winnt:notice] [pid 17264:tid 544] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:36:25.250310 2021] [mpm_winnt:notice] [pid 3932:tid 608] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:36:27.263478 2021] [mpm_winnt:notice] [pid 17264:tid 544] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:36:27.300758 2021] [mpm_winnt:notice] [pid 3932:tid 608] AH00430: Parent: Child process 17264 exited successfully.
+[Thu Aug 12 10:36:28.242016 2021] [mpm_winnt:notice] [pid 11920:tid 576] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:36:28.243016 2021] [mpm_winnt:notice] [pid 11920:tid 576] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:36:28.243016 2021] [core:notice] [pid 11920:tid 576] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:36:28.264954 2021] [mpm_winnt:notice] [pid 11920:tid 576] AH00418: Parent: Created child process 916
+[Thu Aug 12 10:36:28.703412 2021] [mpm_winnt:notice] [pid 916:tid 508] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:37:08.361894 2021] [mpm_winnt:notice] [pid 11920:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:37:38.367663 2021] [mpm_winnt:notice] [pid 11920:tid 576] AH00431: Parent: Forcing termination of child process 916
+[Thu Aug 12 10:37:38.952753 2021] [mpm_winnt:notice] [pid 4236:tid 584] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:37:38.953752 2021] [mpm_winnt:notice] [pid 4236:tid 584] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:37:38.953752 2021] [core:notice] [pid 4236:tid 584] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:37:38.974697 2021] [mpm_winnt:notice] [pid 4236:tid 584] AH00418: Parent: Created child process 16736
+[Thu Aug 12 10:37:39.398611 2021] [mpm_winnt:notice] [pid 16736:tid 468] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:39:00.464614 2021] [mpm_winnt:notice] [pid 4236:tid 584] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:39:24.916006 2021] [mpm_winnt:notice] [pid 16736:tid 468] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:39:24.954004 2021] [mpm_winnt:notice] [pid 4236:tid 584] AH00430: Parent: Child process 16736 exited successfully.
+[Thu Aug 12 10:39:25.793625 2021] [mpm_winnt:notice] [pid 4780:tid 572] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:39:25.793625 2021] [mpm_winnt:notice] [pid 4780:tid 572] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:39:25.793625 2021] [core:notice] [pid 4780:tid 572] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:39:25.809583 2021] [mpm_winnt:notice] [pid 4780:tid 572] AH00418: Parent: Created child process 6560
+[Thu Aug 12 10:39:26.225972 2021] [mpm_winnt:notice] [pid 6560:tid 568] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:39:56.374888 2021] [mpm_winnt:notice] [pid 4780:tid 572] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:40:26.390330 2021] [mpm_winnt:notice] [pid 4780:tid 572] AH00431: Parent: Forcing termination of child process 6560
+[Thu Aug 12 10:40:27.082104 2021] [mpm_winnt:notice] [pid 13884:tid 368] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:40:27.083103 2021] [mpm_winnt:notice] [pid 13884:tid 368] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:40:27.083103 2021] [core:notice] [pid 13884:tid 368] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:40:27.102056 2021] [mpm_winnt:notice] [pid 13884:tid 368] AH00418: Parent: Created child process 17808
+[Thu Aug 12 10:40:27.519457 2021] [mpm_winnt:notice] [pid 17808:tid 520] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:41:03.818112 2021] [mpm_winnt:notice] [pid 13884:tid 368] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:41:33.822777 2021] [mpm_winnt:notice] [pid 13884:tid 368] AH00431: Parent: Forcing termination of child process 17808
+[Thu Aug 12 10:41:34.421949 2021] [mpm_winnt:notice] [pid 11560:tid 576] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:41:34.422947 2021] [mpm_winnt:notice] [pid 11560:tid 576] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:41:34.422947 2021] [core:notice] [pid 11560:tid 576] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:41:34.442894 2021] [mpm_winnt:notice] [pid 11560:tid 576] AH00418: Parent: Created child process 12828
+[Thu Aug 12 10:41:34.837054 2021] [mpm_winnt:notice] [pid 12828:tid 524] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:42:36.068017 2021] [mpm_winnt:notice] [pid 11560:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:42:40.153501 2021] [mpm_winnt:notice] [pid 12828:tid 524] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:42:40.204563 2021] [mpm_winnt:notice] [pid 11560:tid 576] AH00430: Parent: Child process 12828 exited successfully.
+[Thu Aug 12 10:42:41.100635 2021] [mpm_winnt:notice] [pid 17748:tid 564] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:42:41.101633 2021] [mpm_winnt:notice] [pid 17748:tid 564] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:42:41.101633 2021] [core:notice] [pid 17748:tid 564] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:42:41.121582 2021] [mpm_winnt:notice] [pid 17748:tid 564] AH00418: Parent: Created child process 8484
+[Thu Aug 12 10:42:41.638363 2021] [mpm_winnt:notice] [pid 8484:tid 4] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:43:49.430609 2021] [mpm_winnt:notice] [pid 17748:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:43:51.446377 2021] [mpm_winnt:notice] [pid 8484:tid 4] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:43:51.494963 2021] [mpm_winnt:notice] [pid 17748:tid 564] AH00430: Parent: Child process 8484 exited successfully.
+[Thu Aug 12 10:43:52.498610 2021] [mpm_winnt:notice] [pid 288:tid 536] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:43:52.499608 2021] [mpm_winnt:notice] [pid 288:tid 536] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:43:52.499608 2021] [core:notice] [pid 288:tid 536] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:43:52.528532 2021] [mpm_winnt:notice] [pid 288:tid 536] AH00418: Parent: Created child process 10080
+[Thu Aug 12 10:43:52.957121 2021] [mpm_winnt:notice] [pid 10080:tid 436] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:47:34.083511 2021] [mpm_winnt:notice] [pid 288:tid 536] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:47:36.110183 2021] [mpm_winnt:notice] [pid 10080:tid 436] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:47:36.164392 2021] [mpm_winnt:notice] [pid 288:tid 536] AH00430: Parent: Child process 10080 exited successfully.
+[Thu Aug 12 10:47:37.106277 2021] [mpm_winnt:notice] [pid 16520:tid 564] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:47:37.107275 2021] [mpm_winnt:notice] [pid 16520:tid 564] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:47:37.107275 2021] [core:notice] [pid 16520:tid 564] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:47:37.129214 2021] [mpm_winnt:notice] [pid 16520:tid 564] AH00418: Parent: Created child process 8436
+[Thu Aug 12 10:47:37.712058 2021] [mpm_winnt:notice] [pid 8436:tid 556] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:50:26.492442 2021] [mpm_winnt:notice] [pid 16520:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:50:28.522094 2021] [mpm_winnt:notice] [pid 8436:tid 556] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:50:28.551017 2021] [mpm_winnt:notice] [pid 16520:tid 564] AH00430: Parent: Child process 8436 exited successfully.
+[Thu Aug 12 10:50:29.508934 2021] [mpm_winnt:notice] [pid 3800:tid 584] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:50:29.509931 2021] [mpm_winnt:notice] [pid 3800:tid 584] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:50:29.509931 2021] [core:notice] [pid 3800:tid 584] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:50:29.531872 2021] [mpm_winnt:notice] [pid 3800:tid 584] AH00418: Parent: Created child process 9652
+[Thu Aug 12 10:50:30.060727 2021] [mpm_winnt:notice] [pid 9652:tid 144] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:52:39.503228 2021] [mpm_winnt:notice] [pid 3800:tid 584] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:52:41.524668 2021] [mpm_winnt:notice] [pid 9652:tid 144] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:52:41.570946 2021] [mpm_winnt:notice] [pid 3800:tid 584] AH00430: Parent: Child process 9652 exited successfully.
+[Thu Aug 12 10:52:42.502391 2021] [mpm_winnt:notice] [pid 72:tid 572] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:52:42.503416 2021] [mpm_winnt:notice] [pid 72:tid 572] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:52:42.503416 2021] [core:notice] [pid 72:tid 572] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:52:42.523336 2021] [mpm_winnt:notice] [pid 72:tid 572] AH00418: Parent: Created child process 10084
+[Thu Aug 12 10:52:42.931868 2021] [mpm_winnt:notice] [pid 10084:tid 396] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:53:12.263134 2021] [mpm_winnt:notice] [pid 72:tid 572] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:53:14.293298 2021] [mpm_winnt:notice] [pid 10084:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 10:53:14.339618 2021] [mpm_winnt:notice] [pid 72:tid 572] AH00430: Parent: Child process 10084 exited successfully.
+[Thu Aug 12 10:53:15.297176 2021] [mpm_winnt:notice] [pid 11724:tid 580] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:53:15.297176 2021] [mpm_winnt:notice] [pid 11724:tid 580] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:53:15.297176 2021] [core:notice] [pid 11724:tid 580] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:53:15.317123 2021] [mpm_winnt:notice] [pid 11724:tid 580] AH00418: Parent: Created child process 11300
+[Thu Aug 12 10:53:15.744370 2021] [mpm_winnt:notice] [pid 11300:tid 528] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 10:53:30.485140 2021] [mpm_winnt:notice] [pid 11724:tid 580] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 10:54:00.491811 2021] [mpm_winnt:notice] [pid 11724:tid 580] AH00431: Parent: Forcing termination of child process 11300
+[Thu Aug 12 10:54:01.111670 2021] [mpm_winnt:notice] [pid 1288:tid 572] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 10:54:01.111670 2021] [mpm_winnt:notice] [pid 1288:tid 572] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 10:54:01.111670 2021] [core:notice] [pid 1288:tid 572] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 10:54:01.134210 2021] [mpm_winnt:notice] [pid 1288:tid 572] AH00418: Parent: Created child process 17932
+[Thu Aug 12 10:54:01.684345 2021] [mpm_winnt:notice] [pid 17932:tid 512] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 21:24:42.195898 2021] [mpm_winnt:notice] [pid 1288:tid 572] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 21:24:44.224898 2021] [mpm_winnt:notice] [pid 17932:tid 512] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 21:24:44.280581 2021] [mpm_winnt:notice] [pid 1288:tid 572] AH00430: Parent: Child process 17932 exited successfully.
+[Thu Aug 12 21:24:46.141423 2021] [mpm_winnt:notice] [pid 16816:tid 568] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 21:24:46.142419 2021] [mpm_winnt:notice] [pid 16816:tid 568] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 21:24:46.142419 2021] [core:notice] [pid 16816:tid 568] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 21:24:46.161368 2021] [mpm_winnt:notice] [pid 16816:tid 568] AH00418: Parent: Created child process 9648
+[Thu Aug 12 21:24:46.677374 2021] [mpm_winnt:notice] [pid 9648:tid 540] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 21:28:53.846202 2021] [mpm_winnt:notice] [pid 16816:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 21:28:55.865741 2021] [mpm_winnt:notice] [pid 9648:tid 540] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 21:28:55.925751 2021] [mpm_winnt:notice] [pid 16816:tid 568] AH00430: Parent: Child process 9648 exited successfully.
+[Thu Aug 12 21:28:56.869354 2021] [mpm_winnt:notice] [pid 10020:tid 560] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 21:28:56.870064 2021] [mpm_winnt:notice] [pid 10020:tid 560] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 21:28:56.870064 2021] [core:notice] [pid 10020:tid 560] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 21:28:56.892741 2021] [mpm_winnt:notice] [pid 10020:tid 560] AH00418: Parent: Created child process 17164
+[Thu Aug 12 21:28:57.463431 2021] [mpm_winnt:notice] [pid 17164:tid 388] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 21:30:35.764885 2021] [mpm_winnt:notice] [pid 10020:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 21:30:37.787904 2021] [mpm_winnt:notice] [pid 17164:tid 388] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 21:30:37.820037 2021] [mpm_winnt:notice] [pid 10020:tid 560] AH00430: Parent: Child process 17164 exited successfully.
+[Thu Aug 12 21:30:38.868040 2021] [mpm_winnt:notice] [pid 11344:tid 596] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 21:30:38.870020 2021] [mpm_winnt:notice] [pid 11344:tid 596] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 21:30:38.870020 2021] [core:notice] [pid 11344:tid 596] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 21:30:38.887861 2021] [mpm_winnt:notice] [pid 11344:tid 596] AH00418: Parent: Created child process 2220
+[Thu Aug 12 21:30:39.316295 2021] [mpm_winnt:notice] [pid 2220:tid 504] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 21:32:43.749729 2021] [mpm_winnt:notice] [pid 11344:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 21:32:45.759907 2021] [mpm_winnt:notice] [pid 2220:tid 504] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 21:32:45.810965 2021] [mpm_winnt:notice] [pid 11344:tid 596] AH00430: Parent: Child process 2220 exited successfully.
+[Thu Aug 12 21:32:46.788813 2021] [mpm_winnt:notice] [pid 11968:tid 556] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 21:32:46.789057 2021] [mpm_winnt:notice] [pid 11968:tid 556] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 21:32:46.789057 2021] [core:notice] [pid 11968:tid 556] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 21:32:46.810602 2021] [mpm_winnt:notice] [pid 11968:tid 556] AH00418: Parent: Created child process 8772
+[Thu Aug 12 21:32:47.234164 2021] [mpm_winnt:notice] [pid 8772:tid 508] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 21:47:38.513574 2021] [autoindex:error] [pid 8772:tid 1004] [client ::1:59795] AH01276: Cannot serve directory C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Thu Aug 12 21:56:08.996214 2021] [mpm_winnt:notice] [pid 11968:tid 556] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 21:56:39.004578 2021] [mpm_winnt:notice] [pid 11968:tid 556] AH00431: Parent: Forcing termination of child process 8772
+[Thu Aug 12 21:56:39.581049 2021] [mpm_winnt:notice] [pid 15904:tid 564] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 21:56:39.582048 2021] [mpm_winnt:notice] [pid 15904:tid 564] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 21:56:39.582048 2021] [core:notice] [pid 15904:tid 564] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 21:56:39.600997 2021] [mpm_winnt:notice] [pid 15904:tid 564] AH00418: Parent: Created child process 8504
+[Thu Aug 12 21:56:40.125046 2021] [mpm_winnt:notice] [pid 8504:tid 508] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 23:09:00.691377 2021] [mpm_winnt:notice] [pid 15904:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 23:09:02.716064 2021] [mpm_winnt:notice] [pid 8504:tid 508] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 23:09:02.765584 2021] [mpm_winnt:notice] [pid 15904:tid 564] AH00430: Parent: Child process 8504 exited successfully.
+[Thu Aug 12 23:09:03.686878 2021] [mpm_winnt:notice] [pid 18396:tid 552] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 23:09:03.687877 2021] [mpm_winnt:notice] [pid 18396:tid 552] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 23:09:03.687877 2021] [core:notice] [pid 18396:tid 552] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 23:09:03.708819 2021] [mpm_winnt:notice] [pid 18396:tid 552] AH00418: Parent: Created child process 1344
+[Thu Aug 12 23:09:04.235021 2021] [mpm_winnt:notice] [pid 1344:tid 536] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 23:09:30.361736 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:58964] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html, referer: http://localhost/todos2/logout
+[Thu Aug 12 23:09:30.502370 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:58964] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/logout
+[Thu Aug 12 23:09:34.428447 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:58964] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:09:34.562398 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:58964] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/logout
+[Thu Aug 12 23:09:52.399826 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:64856] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html, referer: http://localhost/todos2/login
+[Thu Aug 12 23:09:52.563444 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:64856] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Thu Aug 12 23:10:08.360927 2021] [authz_core:error] [pid 1344:tid 1012] [client ::1:49297] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:10:08.474344 2021] [authz_core:error] [pid 1344:tid 1012] [client ::1:49297] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:10:32.504060 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:54302] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:11:17.170596 2021] [authz_core:error] [pid 1344:tid 1012] [client ::1:55662] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:11:17.305224 2021] [authz_core:error] [pid 1344:tid 1012] [client ::1:55662] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:11:47.597981 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:11:47.709652 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:11:48.459891 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:11:48.573557 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:11:50.159336 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:11:50.272245 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:11:50.620167 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:11:50.734700 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:11:51.285376 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:11:51.408044 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:56353] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:11:59.620865 2021] [authz_core:error] [pid 1344:tid 1012] [client ::1:59835] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:11:59.738838 2021] [authz_core:error] [pid 1344:tid 1012] [client ::1:59835] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:12:23.420409 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:62588] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:12:23.535287 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:62588] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:12:25.531023 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:62588] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:12:25.658680 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:62588] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:12:26.051419 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:62588] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:12:26.157372 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:62588] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:13:52.000617 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:63597] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:13:52.149734 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:63597] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:13:55.169244 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:63597] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:13:55.297899 2021] [authz_core:error] [pid 1344:tid 1008] [client ::1:63597] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:19:20.881655 2021] [mpm_winnt:notice] [pid 18396:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 12 23:19:22.899077 2021] [mpm_winnt:notice] [pid 1344:tid 536] AH00364: Child: All worker threads have exited.
+[Thu Aug 12 23:19:22.954018 2021] [mpm_winnt:notice] [pid 18396:tid 552] AH00430: Parent: Child process 1344 exited successfully.
+[Thu Aug 12 23:19:24.031933 2021] [mpm_winnt:notice] [pid 8420:tid 556] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Thu Aug 12 23:19:24.031933 2021] [mpm_winnt:notice] [pid 8420:tid 556] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Thu Aug 12 23:19:24.031933 2021] [core:notice] [pid 8420:tid 556] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Thu Aug 12 23:19:24.165534 2021] [mpm_winnt:notice] [pid 8420:tid 556] AH00418: Parent: Created child process 11440
+[Thu Aug 12 23:19:24.663854 2021] [mpm_winnt:notice] [pid 11440:tid 472] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 12 23:19:36.151085 2021] [authz_core:error] [pid 11440:tid 1012] [client ::1:59123] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/index.html
+[Thu Aug 12 23:19:36.281732 2021] [authz_core:error] [pid 11440:tid 1012] [client ::1:59123] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:20:08.193827 2021] [authz_core:error] [pid 11440:tid 1032] [client ::1:61775] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/
+[Thu Aug 12 23:20:08.332662 2021] [authz_core:error] [pid 11440:tid 1032] [client ::1:61775] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:20:09.548023 2021] [authz_core:error] [pid 11440:tid 1032] [client ::1:61775] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/
+[Thu Aug 12 23:20:09.678664 2021] [authz_core:error] [pid 11440:tid 1032] [client ::1:61775] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:20:23.090340 2021] [authz_core:error] [pid 11440:tid 1012] [client ::1:60974] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:20:31.555472 2021] [authz_core:error] [pid 11440:tid 1032] [client ::1:53994] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/
+[Thu Aug 12 23:20:31.698090 2021] [authz_core:error] [pid 11440:tid 1032] [client ::1:53994] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Thu Aug 12 23:23:16.841016 2021] [core:error] [pid 11440:tid 1008] [client ::1:63916] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Thu Aug 12 23:23:16.996650 2021] [authz_core:error] [pid 11440:tid 1020] [client ::1:50723] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/user-profile
+[Thu Aug 12 23:23:24.477015 2021] [core:error] [pid 11440:tid 1012] [client ::1:50966] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Thu Aug 12 23:23:24.609664 2021] [authz_core:error] [pid 11440:tid 1020] [client ::1:53608] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/todos
+[Fri Aug 13 08:47:26.340881 2021] [core:error] [pid 11440:tid 1012] [client ::1:49740] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Aug 13 08:47:26.420540 2021] [authz_core:error] [pid 11440:tid 1020] [client ::1:57318] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:47:41.292280 2021] [core:error] [pid 11440:tid 1012] [client ::1:63822] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Aug 13 08:47:41.348905 2021] [authz_core:error] [pid 11440:tid 1020] [client ::1:56263] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:47:49.011304 2021] [core:error] [pid 11440:tid 1020] [client ::1:64796] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Aug 13 08:47:49.071143 2021] [authz_core:error] [pid 11440:tid 1012] [client ::1:54203] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:47:49.838603 2021] [core:error] [pid 11440:tid 1012] [client ::1:54203] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Aug 13 08:47:49.894174 2021] [authz_core:error] [pid 11440:tid 1020] [client ::1:57939] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:47:51.332886 2021] [core:error] [pid 11440:tid 1020] [client ::1:57939] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Aug 13 08:47:51.385738 2021] [authz_core:error] [pid 11440:tid 1012] [client ::1:57655] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:48:16.156175 2021] [core:error] [pid 11440:tid 1012] [client ::1:64537] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Aug 13 08:48:16.220032 2021] [authz_core:error] [pid 11440:tid 1020] [client ::1:58409] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:49:00.969898 2021] [authz_core:error] [pid 11440:tid 1020] [client ::1:52599] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:49:39.496513 2021] [authz_core:error] [pid 11440:tid 1012] [client ::1:60092] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:49:50.479125 2021] [authz_core:error] [pid 11440:tid 1020] [client ::1:61122] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/
+[Fri Aug 13 08:50:04.252444 2021] [core:error] [pid 11440:tid 1012] (20025)The given path contained wildcard characters: [client ::1:61915] AH00036: access to /todos2* failed (filesystem path 'C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/todos2*')
+[Fri Aug 13 08:50:04.311286 2021] [authz_core:error] [pid 11440:tid 1012] [client ::1:61915] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:51:07.818891 2021] [core:error] [pid 11440:tid 1020] (20025)The given path contained wildcard characters: [client ::1:58901] AH00036: access to /todos2* failed (filesystem path 'C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/todos2*')
+[Fri Aug 13 08:51:28.535297 2021] [core:error] [pid 11440:tid 1012] (20025)The given path contained wildcard characters: [client ::1:49919] AH00036: access to /todos2* failed (filesystem path 'C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/todos2*')
+[Fri Aug 13 08:51:28.600124 2021] [authz_core:error] [pid 11440:tid 1012] [client ::1:49919] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 08:51:41.103784 2021] [core:error] [pid 11440:tid 1020] (20025)The given path contained wildcard characters: [client ::1:65352] AH00036: access to /todos2* failed (filesystem path 'C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/todos2*')
+[Fri Aug 13 08:51:41.186759 2021] [authz_core:error] [pid 11440:tid 1020] [client ::1:65352] AH01630: client denied by server configuration: C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24/htdocs/favicon.ico, referer: http://localhost/todos2/login
+[Fri Aug 13 09:02:07.156988 2021] [mpm_winnt:notice] [pid 8420:tid 556] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Aug 13 09:02:09.182440 2021] [mpm_winnt:notice] [pid 11440:tid 472] AH00364: Child: All worker threads have exited.
+[Fri Aug 13 09:02:09.277538 2021] [mpm_winnt:notice] [pid 8420:tid 556] AH00430: Parent: Child process 11440 exited successfully.
+[Fri Aug 13 09:02:10.136623 2021] [mpm_winnt:notice] [pid 16252:tid 552] AH00455: Apache/2.4.48 (Win64) configured -- resuming normal operations
+[Fri Aug 13 09:02:10.137625 2021] [mpm_winnt:notice] [pid 16252:tid 552] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Fri Aug 13 09:02:10.137625 2021] [core:notice] [pid 16252:tid 552] AH00094: Command line: 'C:\\Users\\Onsiter\\Desktop\\Project\\Kha\\training\\Apache24\\bin\\httpd.exe -d C:/Users/Onsiter/Desktop/Project/Kha/training/Apache24'
+[Fri Aug 13 09:02:10.228425 2021] [mpm_winnt:notice] [pid 16252:tid 552] AH00418: Parent: Created child process 11336
+[Fri Aug 13 09:02:10.631078 2021] [mpm_winnt:notice] [pid 11336:tid 524] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 13 09:19:31.757933 2021] [mpm_winnt:notice] [pid 16252:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Aug 13 09:19:33.786471 2021] [mpm_winnt:notice] [pid 11336:tid 524] AH00364: Child: All worker threads have exited.
+[Fri Aug 13 09:19:33.838655 2021] [mpm_winnt:notice] [pid 16252:tid 552] AH00430: Parent: Child process 11336 exited successfully.

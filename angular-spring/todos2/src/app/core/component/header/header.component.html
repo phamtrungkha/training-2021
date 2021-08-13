@@ -1,0 +1,10 @@
+<header>
+  <nav class="navbar bg-dark">
+    <a class="navbar-brand text-light" routerLink="/">Todos</a>
+    <a class="navbar-text text-light mx-3" routerLink="/user-profile" *ngIf="isLogin">User Profile</a>
+    <a class="navbar-text text-light mr-auto" routerLink="/todos" *ngIf="isLogin">Todo List</a>
+    <a class="navbar-text text-light ml-auto" routerLink="/signup" *ngIf="!isLogin">Signup |</a>
+    <a class="navbar-text text-light ml-2" routerLink="/login" *ngIf="!isLogin">Login</a>
+    <a class="navbar-text text-light ml-2" routerLink="/logout" *ngIf="isLogin">Logout</a>
+  </nav>
+</header>
